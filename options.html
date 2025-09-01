@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabs to Markdown Options</title>
+  <link rel="stylesheet" href="options.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="card">
+    <h1 class="card-header">Settings</h1>
+    <div class="card-content">
+      
+      <div class="form-group">
+        <label for="apiKey">OpenAI API Key</label>
+        <input type="password" id="apiKey" placeholder="Enter your key (e.g., sk-...)">
+      </div>
+
+      <div class="form-group">
+        <label for="creatorName">Creator Name</label>
+        <input type="text" id="creatorName" placeholder="Optional: for filenames">
+      </div>
+
+      <div class="button-container">
+        <button id="save">Save Settings</button>
+      </div>
+      
+      <p id="status"></p>
+    </div>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>
